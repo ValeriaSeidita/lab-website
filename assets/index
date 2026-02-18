@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Software Engineering Research Lab</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="brand">
+        <strong>Software Engineering Research Lab</strong>
+        <span>Università di ... • Dipartimento di ...</span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="people.html">People</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="card">
+        <p class="kicker">Mission</p>
+        <h1>Progettiamo e ingegnerizziamo sistemi software affidabili per l’AI e la robotica.</h1>
+        <p>
+          <!-- SOSTITUISCI: 3-6 righe sul laboratorio -->
+          Qui inserisci una descrizione chiara del laboratorio: temi, approccio, impatto, collaborazione con aziende/PA/scuola, ecc.
+        </p>
+
+        <div class="badges">
+          <!-- SOSTITUISCI: parole chiave -->
+          <span class="badge">Software Engineering</span>
+          <span class="badge">AI Systems</span>
+          <span class="badge">Knowledge Graphs</span>
+          <span class="badge">Explainability</span>
+          <span class="badge">Human-Robot Interaction</span>
+        </div>
+
+        <div class="btns">
+          <a class="btn primary" href="projects.html">Esplora i progetti</a>
+          <a class="btn" href="publications.html">Pubblicazioni</a>
+          <a class="btn" href="contact.html">Collabora con noi</a>
+        </div>
+      </div>
+
+      <aside class="card">
+        <p class="kicker">Highlights</p>
+        <ul class="list">
+          <li>
+            <strong>Opportunità tesi / stage</strong><br/>
+            <span class="small">Inserisci link a una pagina o un form.</span>
+          </li>
+          <li>
+            <strong>News</strong><br/>
+            <span class="small">Aggiungi 2–3 news recenti (titolo + link).</span>
+          </li>
+          <li>
+            <strong>Links rapidi</strong><br/>
+            <span class="small">
+              <a href="#">GitHub</a> • <a href="#">Google Scholar</a> • <a href="#">DBLP</a>
+            </span>
+          </li>
+        </ul>
+      </aside>
+    </section>
+
+    <h2 class="section-title">Aree di ricerca</h2>
+    <section class="grid">
+      <div class="card">
+        <h3>Software Engineering for Intelligent Systems</h3>
+        <p class="small">Inserisci 2–3 righe.</p>
+      </div>
+      <div class="card">
+        <h3>Explainable AI & Trust</h3>
+        <p class="small">Inserisci 2–3 righe.</p>
+      </div>
+      <div class="card">
+        <h3>Knowledge Graphs & Ontologies</h3>
+        <p class="small">Inserisci 2–3 righe.</p>
+      </div>
+    </section>
+
+    <div class="footer">
+      © <span id="y"></span> Software Engineering Research Lab • <a href="contact.html">Contatti</a>
+    </div>
+  </main>
+
+  <script src="assets/script.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
